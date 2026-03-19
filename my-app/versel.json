@@ -1,0 +1,4 @@
+{
+  "source": "/(.*)",
+  "destination": "my-app/index.html"
+}
