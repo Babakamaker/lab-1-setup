@@ -1,4 +1,6 @@
 name: Deploy to GitHub Pages
+with:
+  path: './my-app'
 on:
   push:
     branches: [main]
