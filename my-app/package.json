@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+      "test": "vitest run",
+  "lint": "next lint",
     "preview": "vite preview"
   },
   "dependencies": {
