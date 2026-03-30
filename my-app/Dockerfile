@@ -1,7 +1,7 @@
 # Stage 1: Встановлення залежностей
 FROM node:24-alpine AS deps
 WORKDIR /app
-COPY package.json package-lock.json./
+COPY package.json package-lock.json ./
 RUN npm ci --frozen-lockfile
 
 # Stage 2: Збирання проєкту
