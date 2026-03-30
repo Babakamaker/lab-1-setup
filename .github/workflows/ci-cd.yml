@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 20
           cache: 'npm' # Автоматичне кешування node_modules [12]
+          cache-dependency-path: my-app/package-lock.json
 
       - name: Install dependencies
         run: npm ci
