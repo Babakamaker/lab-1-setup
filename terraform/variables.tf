@@ -1,8 +1,8 @@
 variable "vercel_api_token" {
-  description = "API-токен Vercel"
+  description = "Vercel API Token for Authentication"
   type        = string
 }
 variable "student_id" {
-  description = "Student ID for custom domain"
+  description = "Student ID for custom domain: surname, nickname, etc."
   type        = string
 }
