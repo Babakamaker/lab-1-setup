@@ -1,0 +1,2 @@
+vercel_api_token="vcp_4pP912wVL8qDn3ZdHR4rOx8KlVCojwhqNX1d3SG4IDOmrvT6af3P1P5s"
+student_id="babaieva"
