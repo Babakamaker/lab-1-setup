@@ -3,7 +3,7 @@ resource "vercel_project" "lab_deployment" {
   framework = "nextjs"
   git_repository = {
     type = "github"
-    repo = "Babakamaker/lab-1-setup"
+    repo = "babakamaker/lab-1-setup"
   }
 }
 
